@@ -1,0 +1,48 @@
+**********************testNG****************************
+
+1. What is xml?
+ Xml is a file format
+
+2. How to create a maven project?
+
+file-->new-->project
+new project--> build system (maven)
+
+3. POM.XML?
+it is an XML file
+
+we can add our dependencies here for our project
+
+ 4. In POM.xml how do i add dependencies?
+
+ <dependencies>
+        <dependency>
+
+         </dependency>
+ </dependencies>
+
+ 5. What are the annotations?
+ a. @Test --> all the test cases are written in this annotation
+
+ b. @BeforeMethod --> this runs before every @Test annotation  --> pre-conditions
+
+ c. @AfterMethod --> this will run after each @Test annotation  --> post-conditions
+
+ @Test(enabled = false) --> it will not run this test case --> we might use this if we want to not run a test case
+
+ 7. depends on what is the purpose?
+
+ @Test(dependsOnMethods = {"Login"}) --> this test case depends on login and will be only executed if Login "Passes";
+
+ 8. Priority?
+
+ By default the priority is 0 --> highest order
+
+ if two cases are there with 0 priority --> alphabetically ascending will be followed
+
+ @Test(priority = 3)
+ ABC
+ @Test(priority = 2)
+ DEF
+ @Test(priority = 1)
+ GEH

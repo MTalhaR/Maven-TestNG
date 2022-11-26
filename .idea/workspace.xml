@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5cdab60-bdef-413e-8078-4d03dcda1c6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/class01/testNGAnnotations.java" afterDir="false" />
+    <list default="true" id="e5cdab60-bdef-413e-8078-4d03dcda1c6d" name="Changes" comment="class 01">
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/dependsOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/enableDisable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/testNGExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/class01/testNGAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/class01/testNGAnnotations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +32,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2I326hWMROW3Rb7Tv3RCkMGsKaX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,8 +46,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="testNGAnnotations" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.priority">
+    <configuration name="dependsOn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenTestNG" />
       <extension name="coverage">
         <pattern>
@@ -50,7 +56,76 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="class01" />
-      <option name="MAIN_CLASS_NAME" value="class01.testNGAnnotations" />
+      <option name="MAIN_CLASS_NAME" value="class01.dependsOn" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dependsOn.Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="class01" />
+      <option name="MAIN_CLASS_NAME" value="class01.dependsOn" />
+      <option name="METHOD_NAME" value="Login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="enableDisable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="class01" />
+      <option name="MAIN_CLASS_NAME" value="class01.enableDisable" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="priority" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="class01" />
+      <option name="MAIN_CLASS_NAME" value="class01.priority" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testNGExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="class01" />
+      <option name="MAIN_CLASS_NAME" value="class01.testNGExample" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -60,7 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.testNGAnnotations" />
+        <item itemvalue="TestNG.priority" />
+        <item itemvalue="TestNG.dependsOn" />
+        <item itemvalue="TestNG.dependsOn.Login" />
+        <item itemvalue="TestNG.enableDisable" />
+        <item itemvalue="TestNG.testNGExample" />
       </list>
     </recent_temporary>
   </component>
@@ -73,6 +152,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669395774619</updated>
     </task>
+    <task id="LOCAL-00001" summary="class 01">
+      <created>1669482206306</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669482206306</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,5 +172,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="class 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="class 01" />
   </component>
 </project>
