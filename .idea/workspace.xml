@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5cdab60-bdef-413e-8078-4d03dcda1c6d" name="Changes" comment="class 01">
+      <change afterPath="$PROJECT_DIR$/GroupWiseExecution.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MethodWiseExecution.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultipleTestTags.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PackageWiseExecution.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classWiseExecutionExample.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/ExamplesAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/HardAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/SoftAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/class01/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/class01/Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/class01/priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/class01/priority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/class01/testNGExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/class01/testNGExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,24 +45,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.priority">
-    <configuration name="dependsOn" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.D:/Intellij IDEA/MavenTestNG/testng.xml">
+    <configuration name="D:/Intellij IDEA/MavenTestNG/classWiseExecutionExample.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/classWiseExecutionExample.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Intellij IDEA/MavenTestNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamplesAssertions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class01.*" />
+          <option name="PATTERN" value="class02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="class01" />
-      <option name="MAIN_CLASS_NAME" value="class01.dependsOn" />
+      <option name="PACKAGE_NAME" value="class02" />
+      <option name="MAIN_CLASS_NAME" value="class02.ExamplesAssertions" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -59,51 +91,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dependsOn.Login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SoftAssertions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class01.*" />
+          <option name="PATTERN" value="class02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="class01" />
-      <option name="MAIN_CLASS_NAME" value="class01.dependsOn" />
-      <option name="METHOD_NAME" value="Login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="enableDisable" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="class01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="class01" />
-      <option name="MAIN_CLASS_NAME" value="class01.enableDisable" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="priority" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="class01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="class01" />
-      <option name="MAIN_CLASS_NAME" value="class01.priority" />
+      <option name="PACKAGE_NAME" value="class02" />
+      <option name="MAIN_CLASS_NAME" value="class02.SoftAssertions" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -130,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.priority" />
-        <item itemvalue="TestNG.dependsOn" />
-        <item itemvalue="TestNG.dependsOn.Login" />
-        <item itemvalue="TestNG.enableDisable" />
+        <item itemvalue="TestNG.D:/Intellij IDEA/MavenTestNG/testng.xml" />
         <item itemvalue="TestNG.testNGExample" />
+        <item itemvalue="TestNG.D:/Intellij IDEA/MavenTestNG/classWiseExecutionExample.xml" />
+        <item itemvalue="TestNG.ExamplesAssertions" />
+        <item itemvalue="TestNG.SoftAssertions" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669488111476</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="class 01">
+      <created>1669559310377</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669559310377</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +180,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="class 01" />
     <option name="LAST_COMMIT_MESSAGE" value="class 01" />
   </component>
