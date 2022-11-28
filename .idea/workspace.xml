@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5cdab60-bdef-413e-8078-4d03dcda1c6d" name="Changes" comment="class 01">
-      <change afterPath="$PROJECT_DIR$/GroupWiseExecution.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MethodWiseExecution.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultipleTestTags.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PackageWiseExecution.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classWiseExecutionExample.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/class02/ExamplesAssertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/class02/HardAssertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/class02/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/class02/SoftAssertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="e5cdab60-bdef-413e-8078-4d03dcda1c6d" name="Changes" comment="class 02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/class01/priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/class01/priority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/class01/testNGExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/class01/testNGExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/class02/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/class02/Notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +42,17 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.D:/Intellij IDEA/MavenTestNG/testng.xml">
+  <component name="RunManager" selected="TestNG.D:/Intellij IDEA/MavenTestNG/GroupWiseRegressionSmoke.xml">
+    <configuration name="D:/Intellij IDEA/MavenTestNG/GroupWiseRegressionSmoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/GroupWiseRegressionSmoke.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/Intellij IDEA/MavenTestNG/classWiseExecutionExample.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenTestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/classWiseExecutionExample.xml" />
@@ -91,23 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoftAssertions" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="class02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="class02" />
-      <option name="MAIN_CLASS_NAME" value="class02.SoftAssertions" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="testNGExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenTestNG" />
       <extension name="coverage">
@@ -127,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Intellij IDEA/MavenTestNG/GroupWiseRegressionSmoke.xml" />
         <item itemvalue="TestNG.D:/Intellij IDEA/MavenTestNG/testng.xml" />
         <item itemvalue="TestNG.testNGExample" />
         <item itemvalue="TestNG.D:/Intellij IDEA/MavenTestNG/classWiseExecutionExample.xml" />
         <item itemvalue="TestNG.ExamplesAssertions" />
-        <item itemvalue="TestNG.SoftAssertions" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669559310377</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="class 02">
+      <created>1669578209031</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669578209031</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +171,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="class 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="class 01" />
+    <MESSAGE value="class 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="class 02" />
   </component>
 </project>
