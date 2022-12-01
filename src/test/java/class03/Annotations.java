@@ -3,6 +3,14 @@ package class03;
 import org.testng.annotations.*;
 
 public class Annotations {
+    @BeforeTest
+    public void t(){
+        System.out.println("i am before test");
+    }
+    @AfterTest
+    public void t2(){
+        System.out.println("i am after test");
+    }
 
     @BeforeClass
     public void beforeClass(){

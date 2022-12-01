@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5cdab60-bdef-413e-8078-4d03dcda1c6d" name="Changes" comment="class 02">
-      <change afterPath="$PROJECT_DIR$/beforeClass.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/class03/Annotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/class03/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/class03/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/class03/dataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="e5cdab60-bdef-413e-8078-4d03dcda1c6d" name="Changes" comment="class 03">
+      <change afterPath="$PROJECT_DIR$/BefoeSuiteBeforeTestExample.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParallelTestXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listenerXML2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/class03/dataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/class03/dataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lsitenerXML.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,24 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.D:/Intellij IDEA/MavenTestNG/GroupWiseRegressionSmoke.xml">
+  <component name="RunManager" selected="TestNG.D:/Intellij IDEA/MavenTestNG/testng.xml">
+    <configuration name="Annotations" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="class03" />
+      <option name="MAIN_CLASS_NAME" value="class03.Annotations" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/Intellij IDEA/MavenTestNG/GroupWiseRegressionSmoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenTestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/GroupWiseRegressionSmoke.xml" />
@@ -58,9 +74,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Intellij IDEA/MavenTestNG/classWiseExecutionExample.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Intellij IDEA/MavenTestNG/beforeClass.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenTestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/classWiseExecutionExample.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/beforeClass.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -78,33 +94,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExamplesAssertions" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="dataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class02.*" />
+          <option name="PATTERN" value="class03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="class02" />
-      <option name="MAIN_CLASS_NAME" value="class02.ExamplesAssertions" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testNGExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="class01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="class01" />
-      <option name="MAIN_CLASS_NAME" value="class01.testNGExample" />
+      <option name="PACKAGE_NAME" value="class03" />
+      <option name="MAIN_CLASS_NAME" value="class03.dataProvider" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Intellij IDEA/MavenTestNG/GroupWiseRegressionSmoke.xml" />
         <item itemvalue="TestNG.D:/Intellij IDEA/MavenTestNG/testng.xml" />
-        <item itemvalue="TestNG.testNGExample" />
-        <item itemvalue="TestNG.D:/Intellij IDEA/MavenTestNG/classWiseExecutionExample.xml" />
-        <item itemvalue="TestNG.ExamplesAssertions" />
+        <item itemvalue="TestNG.dataProvider" />
+        <item itemvalue="TestNG.D:/Intellij IDEA/MavenTestNG/beforeClass.xml" />
+        <item itemvalue="TestNG.Annotations" />
+        <item itemvalue="TestNG.D:/Intellij IDEA/MavenTestNG/GroupWiseRegressionSmoke.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669624358313</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="class 03">
+      <created>1669824582215</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669824582215</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +190,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="class 01" />
     <MESSAGE value="class 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="class 02" />
+    <MESSAGE value="class 03" />
+    <option name="LAST_COMMIT_MESSAGE" value="class 03" />
   </component>
 </project>

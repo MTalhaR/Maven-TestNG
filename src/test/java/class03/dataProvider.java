@@ -6,10 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.util.concurrent.TimeUnit;
 
@@ -34,14 +31,18 @@ public class dataProvider {
     @DataProvider(name = "credentials")
     public Object[][] data () {
         Object[][] loginData = {
-                {"Admin", "12345", "Invalid credential"},
+                {"Admin", "12345", "Invalid credentials"},
                 {"ABCD", "Hum@nhrm123", "Invalid credentials"},
-                {"Admin", "", "Password cannot be empt"},
-                {"", "Hum@nhrm123", "Username cannot be empt"}
+                {"Admin", "", "Password cannot be empty"},
+                {"", "Hum@nhrm123", "Username cannot be empty"}
         };
         return loginData;
     }
 
+    @BeforeClass
+    public void beforeClass(){
+        System.out.println("i am Before class");
+    }
 
 
     @Test(dataProvider = "credentials")
